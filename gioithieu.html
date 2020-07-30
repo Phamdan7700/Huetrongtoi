@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huế Quê Tôi</title>
+
+    <!-- Boostrap4.5.0 -->
+    <script src="css/bootstrap-4.5.0/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-4.5.0/css/bootstrap.min.css">
+
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CDN Boostrap 4.5.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="vendor/js/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="vendor/css/animate.css">
+    <!-- Carousel -->
+    <link rel="stylesheet" href="vendor/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <script src="vendor/owlcarousel/dist/owl.carousel.min.js"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="vendor/css/aos.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <!-- Nav toggle -->
+        <nav class="navbar navbar-expand-sm navbar-light  ">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="khampha" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Khám phá</a>
+                        <div class="dropdown-menu" aria-labelledby="khampha">
+                            <a class="dropdown-item" href="ditichlichsu.html">Di Tích Lịch Sử</a>
+                            <a class="dropdown-item" href="diadiemdulich.html">Du Lịch</a>
+                            <a class="dropdown-item" href="connguoi.html">Con Người</a>
+                            <a class="dropdown-item" href="lehoi.html">Lễ Hội</a>
+                            <a class="dropdown-item" href="Festival.html">Festival</a>
+                            <a class="dropdown-item" href="langnghe.html">Làng Nghề Truyền Thống</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="amthuc" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Ẩm Thực</a>
+                        <div class="dropdown-menu" aria-labelledby="amthuc">
+                            <a class="dropdown-item" href="amthuccungdinh.html">Ẩm Thực Cung Đình</a>
+                            <a class="dropdown-item" href="amthucdangian.html">Ẩm Thực Dân Gian</a>
+                            <a class="dropdown-item" href="amthucchay.html">Ẩm Thực Chay</a>
+                            <a class="dropdown-item" href="amthucdacsan.html">Đặc Sản Huế</a>
+                            <a class="dropdown-item" href="amthucduongpho.html">Ăn Vặt - Đường Phố</a>
+                            <a class="dropdown-item" href="amthucnoibat.html">Nổi Bật</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dichvu" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dịch Vụ</a>
+                        <div class="dropdown-menu" aria-labelledby="dichvu">
+                            <a class="dropdown-item" href="dvtourdulich.html">Tour Du Lịch</a>
+                            <a class="dropdown-item" href="dvluutru.html">Lưu Trú - HomeStay</a>
+                            <a class="dropdown-item" href="dvthamquan.html">Tham Quan</a>
+                            <a class="dropdown-item" href="dvmuasam.html">Mua Sắm</a>
+                            <a class="dropdown-item" href="dvvuichoigiaitri.html">Vui Chơi - Giải Trí</a>
+                            <a class="dropdown-item" href="dvnhahang.html">Ăn Uống - Nhà Hàng</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tintuc.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="thuvienanh.html">Thư viện ảnh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lienhe.html">Liên Hệ</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Bạn muốn tìm gì...">
+                    <button class="btn btn-outline-success my-2 my-sm-0 search btn-hover" type="submit"
+                        style="background-color: red;" onclick="alert('Chức năng đang xây dựng :))...')">Tìm
+                        kiếm</button>
+                </form>
+            </div>
+        </nav>
+        <!-- Nav toggle end -->
+
+        <!-- Info icon & marquee-->
+        <div class=" contact">
+            <span>
+                <a title="Facebook" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a title="Twitter" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a title="Youtube" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a title="Instagram" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </span>
+            <marquee>
+                Festival Huế lần thứ XI (từ ngày 28/8/2020 đến ngày 02/9/2020) là cột mốc đánh dấu chặng đường 20
+                năm hình thành và phát triển của một festival văn hóa - nghệ thuật - du lịch quốc gia, mang tầm quốc
+                tế.
+            </marquee>
+
+        </div>
+    </header>
+    <!-- Main Page -->
+    <main class="intro">
+        <h1 class="text-center page-title"
+            style="  background-image: url(img/titlebg/cautruongtienhue.jpg); background-size: cover;">Vài Nét Về Huế
+        </h1>
+        <div class="row no-gutters">
+            <div class="col-md-9">
+                <div class="container content">
+                    <div class="main-page">
+                        <div class="text-primary text-justify text-intro">
+                            <h2 class="text-center">Giới thiệu về Huế - nơi đó có gì làm ta say mê?</h2>
+                            <h5 class="text-danger">1. Thông tin tổng quan giới thiệu về Huế</h5>
+                            <p>
+                                Tọa lạc hai bên bờ sông Hương, thành phố Huế là di sản văn hóa thế giới thuộc tỉnh Thừa
+                                Thiên –
+                                Huế.
+                                Huế từng là kinh đô (cố đô Huế) của Việt Nam thời phong kiến dưới triều Tây Sơn (1788 -
+                                1801) và
+                                nhà
+                                Nguyễn (1802 – 1945).
+
+                            </p>
+
+                            <div class="video-wrapper text-center" style="background-image: url(img/Nha-Hang1.jpg);">
+                                <div class="container"> <video class="invisible" id="video" src="img/Codohue.mp4"
+                                        style="width: 100%;" controls></video>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="video-icon-area">
+                                        <h2 class="video-title">Cố Đô Huế <br> Một Điểm Văn Hóa Di Sản</h2>
+                                        <div class="video-icon-btn">
+                                            <i class="fa fa-play text-light animate__animated  " onclick="play()"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                Từng là Kinh đô của triều đại nhà Nguyễn, vì thế mà Huế được xem là một trong những
+                                thành
+                                phố có
+                                bề
+                                dày lịch sử, văn hóa lâu đời nhất ở nước ta. Văn hóa, di tích, kiến trúc đã “lôi cuốn”
+                                không
+                                ít
+                                khách du lịch đến với Huế. Không chỉ dừng lại đó, Huế còn quyến rũ du khách bởi bức
+                                tranh
+                                thiên
+                                nhiên hữu tình thi vị và con người địa phương chân chất hiền hòa.
+
+                            </p>
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/huetrencao1.jpg" alt="img" ">
+                            </figure>
+    
+                             <figure class=" img-about-section text-center">
+                                <img src="img/gioithieu/huetrencao3.jpg" alt="img">
+                                <figcaption>Huế Nhìn Từ Trên Cao</figcaption>
+                            </figure>
+                            <br>
+                            <p>
+                                Huế không chỉ cuốn hút du khách bởi những nét đẹp văn hóa, lịch sử, những nét
+                                đẹp cổ kính, mà còn thu phục lòng người bởi sự thân thiện của con người xứ Huế, sự dịu
+                                dàng, ngọt ngào của người con gái Huế khiến ai cũng phải si mê, hay những cơn mưa bất
+                                chợt tháng mười tạo nên những cảm giác trầm mặc, lắng đọng và cũng thật lãng mạn.
+                                Những nét đẹp ấy, khiến du khách không khỏi khôn nguôi, nhớ thương khi rời xa đất Huế.
+                                Đến với Huế là đến với những nét đẹp nên thơ, hữu tình.
+                            </p>
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/songhuong.jpg" alt="img">
+                                <figcaption>Sông Hương</figcaption>
+                            </figure>
+                            <br>
+
+
+
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/10.jpg" alt="img">
+                            </figure>
+
+                            <figure class="img-about-section text-center">
+                                <img src="img/gioithieu/ngomon1.jpg" alt="img">
+                                <figcaption>Ngọ Môn Huế</figcaption>
+                            </figure>
+
+                            <br>
+
+                            <div class="background-fixed"></div>
+                            <br>
+
+                            <p>
+                                Huế ngoài nổi tiếng với núi Ngự hùng vĩ soi bóng bên dòng sông Hương thơ mộng nên thơ và
+                                các
+                                di
+                                tích
+                                cổ xưa của các triều đại vua chúa thì Huế còn được biết đến với nhiều bãi biển đẹp cho
+                                những
+                                ai
+                                thích du lịch.
+                                Du lịch Huế là chiêm
+                                ngưỡng
+                                các thắng cảnh như núi Ngự Bình, bãi biển Thuận An, bãi biển Lăng Cô và phá Tam Giang.
+                                Huế còn là địa điểm du lịch lý tưởng không thể bỏ qua đối với những ai yêu thích tìm
+                                hiểu,
+                                khám
+                                phá
+                                những di
+                                tích lịch sử, văn hóa của Việt Nam. Những địa danh nổi bật là sông Hương, Quần thể di
+                                tích
+                                Cố Đô
+                                Huế
+                                như Kinh Thành
+                                Huế, Lăng Minh Mạng, Lăng Gia Long, Chùa Thiên Mụ, Văn Miếu và Trường Quốc Học và những
+                                di
+                                sản để lại của triều đại phong kiến, Thành phố có năm danh hiệu UNESCO ở Việt Nam:
+                            </p>
+
+                            <ul>
+                                <li> Quần thể Di tích Cố đô Huế (1993)</li>
+                                <li> Nhã nhạc cung đình Huế (2003)</li>
+                                <li>Mộc bản triều Nguyễn (2009) </li>
+                                <li>Châu bản triều Nguyễn (2014) </li>
+                                <li>Hệ thống thơ văn trên kiến trúc cung đình Huế (2016)</li>
+                            </ul>
+
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/nha-nhac-cung-dinh-hue.jpg" alt="img">
+                                <figcaption>Nhã Nhạc Cung Đình Huế</figcaption>
+                            </figure>
+                            <br>
+
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/mocbantrieunguyen.jpg" alt="img">
+                                <figcaption>Mộc Bản Triều Nguyễn</figcaption>
+                            </figure>
+                            <br>
+
+                            <p>
+                                Ngày nay, Huế được biết đến là thành phố Festival của Việt Nam. Festival Huế lần đầu
+                                được tổ
+                                chức
+                                vào năm
+                                2000, với sự thành công ngoài mong đợi Thành phố Huế đã quyết định 2 năm sẽ tổ chức
+                                Festival
+                                1
+                                lần.
+                                Nhã nhạc cung
+                                đình là
+                                một trong những nét văn hóa đặc sắc của Huế.
+
+                                Hiện nay, thành phố Huế là một trong những trung tâm về văn hoá – du lịch, y tế chuyên
+                                sâu,
+                                giáo
+                                dục
+                                đào tạo,
+                                khoa học công nghệ của Miền Trung - Tây Nguyên và cả nước.
+                                Ngoài ra, Huế còn là một trong những địa phương có di sản hát bài chòi đã được công nhận
+                                là
+                                di
+                                sản
+                                văn hóa
+                                phi vật thể của nhân loại.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-page">
+                        <div class="text-primary text-justify text-intro">
+                            <h5 class="text-danger">2. Đặc điểm tự nhiên của Thừa Thiên Huế
+                            </h5>
+                            <h5 class="text-danger">2.1 Khí hậu của Huế </h5>
+                            <p>
+                                Huế nằm trong khu vực thuộc khí hậu nhiệt đới gió mùa nên thời tiết chia thành 4 mùa:
+                                Mùa xuân ấm áp, mùa hè oi nóng, mùa thu dịu nhẹ và mùa đông lạnh rét.
+                            </p>
+
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/gioi-thieu-ve-hue-700x523.jpg" alt="img">
+                                <figcaption>Nên đi du lịch Huế từ tháng 11 đến tháng 4 năm sau</figcaption>
+                            </figure>
+                            <p>
+                                Xét theo đặc điểm của từng muà thì mùa du lịch đẹp nhất tại đây kéo dài từ tháng 11 đến
+                                tháng 4 năm sau. Thời tiết lúc này vô cùng dễ chịu, ôn hòa. Tạo điều kiện để bạn đi khám
+                                phá
+                                khắp mọi nơi.
+                            </p>
+
+
+
+                            <h5 class="text-danger">3. Giới thiệu về Huế - nét đẹp con người </h5>
+                            <p>
+                                Giới thiệu về Huế thì chắc chắn không thể bỏ qua nét đẹp say lòng của những con người
+                                nới đây. Xứ sở mộng mơ này không chỉ thu hút du khách bởi tinh hoa văn hóa, lịch sử mà
+                                còn thu phục cảm xúc bởi tính cách dịu dàng, thân thiện của con người .
+                            </p>
+
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/Con-nguoi.jpg" alt="img">
+                                <figcaption>Người Huế vô cùng thân thiện, cởi mở và rất đỗi thân thương</figcaption>
+                            </figure>
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/connguoihue.jpg" alt="img">
+                                <figcaption>Nét văn hóa đấy đã làm xiêu lòng không biết bao nhiêu du khách
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Người Huế nhẹ nhàng, dễ thương pha chút nét kín đáo, e ấp cùng giọng nói dễ khiến người
+                                ta
+                                say. Tất cả đều tạo nên một vẻ đẹp khó diễn giải làm si mê không biết bao nhiêu người.
+                                Đây
+                                cũng chính là một trong những nét văn hóa được lòng rất nhiều du khách thập phương khi
+                                đặt
+                                chân đến mảnh đất này.
+                            </p>
+
+                            <h5 class="text-danger">4. Giới thiệu về Huế và hành trình khám phá nền ẩm thực đặc sắc
+                            </h5>
+                            <p>Xứ Huế mộng mơ thật biết cách gieo nỗi nhớ nhung, sự vấn vương khó dứt cho du khách bởi
+                                văn hóa ẩm thực rất riêng, mang hương vị đặc trưng của vùng đất này.
+
+                                Nhìn chung, các món ăn Huế được chế biến khá cầu kỳ do ảnh hưởng của luồng văn hóa cung
+                                đình và tính cách con người. Bản sắc ẩm thực Huế đã lan tỏa khắp mọi nơi. Nếu có dịp đến
+                                đây hãy giới thiệu về Huế 3 món ăn gây thương nhớ dưới đây:
+                            </p>
+                            <h5 class="text-danger">4.1 Bánh bột lọc </h5>
+                            <p>
+                                Khi giới thiệu về Huế thì nhớ chia sẻ món ăn này cho mọi người các bạn nhé. Đây là món
+                                ăn phổ biến ở nhiều nơi, ở mỗi vùng miền hương bị bánh cũng sẽ thay đổi. Tuy nhiên bánh
+                                bột lọc ở Huế vẫn luôn là trải nghiệm khiến thực khách xuýt xoa mãi không thôi.
+
+                                Nếu chưa biết ăn gì ở Huế thì một đĩa bánh bột lọc với các loại nhân mặn hay ngọt sẽ
+                                giúp bạn tạm lấp bung đói.
+                            </p>
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/banh-bot-loc-hue-700x700.jpg" alt="img">
+                                <figcaption>Bánh bột lọc gây thương nhớ biết bao thực khách
+                                </figcaption>
+                            </figure>
+                            <h5 class="text-danger">4.2. Bún bò Huế</h5>
+                            <p>
+                                Giới thiệu về Huế mà bỏ sót bún bò thì hãy thêm vào ngay nhé. Đây được xem là linh hồn
+                                của ẩm thực cố đô. Nhắc đến bún bò Huế, người ta sẽ nghĩ ngay tới nước dùng được hầm kỹ
+                                từ xương để có vị ngọt thanh không quá nồng. Mỗi tô bún bò sẽ có thêm miếng chân giò,
+                                vài lát thịt bò thái mỏng, giò tự nắm và điểm tô thêm chút ít hành lá.
+                            </p>
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/bun-bo-hue-700x467.jpg" alt="img">
+                                <figcaption>Giới thiệu về Huế nhất định phải không quên món bún bò
+                                </figcaption>
+                            </figure>
+                            <h5 class="text-danger">4.3. Cơm Hến
+                            </h5>
+                            <p>
+                                Cơm hến có ở nhiều nơi, nhưng ngon hoàn mỹ nhất thì phải kể đến Huế. Bát cơm hến ở đây
+                                có
+                                màu trắng thơm, có hến xào hành phi thơm phức, có tóp mỡ chiên giòn vàng rụm, có thêm
+                                rau sống tươi sạch bắt mắt và cả vị đậm đà của mắm ruốc.
+                            </p>
+                            <figure class="img-about-section">
+                                <img src="img/gioithieu/Am-thuc-com-hen.jpg" alt="">
+                            </figure>
+                            <p>Cơm hến Huế ăn lạ miệng, thơm ngon khiến nhiều du khách mê mẩn khi du lịch đến đây. Món
+                                ăn
+                                tuy rất bình dị nhưng quá trình chế biến lại rất tỉ mẩn, thể hiện sự cầu kỳ trong văn
+                                hóa ẩm
+                                thực của con người xứ Huế.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <!-- Bai viet noi bat -->
+                    <div class="row text-justify">
+                        <h2 class="col-12">Bài Viết Nổi Bật</h2>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="max-width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-md-3 hv-popup">
+                            <figure class="bg-light">
+                                <a href="#">
+                                    <img src="img/2.png" alt="img" style="width: 100%;">
+                                    <figcaption>Đi Qua Xứ Huế Mộng Mơ Có Những Điểm Đến Làm Ngọt Lòng Du Khách
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chu de noi bat -->
+            <div class="col-md-3">
+                <div class="container position-sticky" style="top: 120px;">
+                    <div class="row no-gutters">
+                        <h2 class="col-12  bg-danger text-center">Chủ Đề Nổi Bật</h2>
+                        <div class="border border-danger">
+                            <div class="col-12 pt-1">
+                                <a href="#">
+                                    <figure class="row no-gutters bg-light">
+                                        <div class="col-3 pr-2">
+                                            <img src="img/thuvienanh/girl.jpg" alt="img" style="width: 100%;">
+                                        </div>
+                                        <div class="col-9">
+                                            <figcaption>Tham quan Huế có gì thú vị? Gợi ý nên đi khi nào, ở đâu?
+                                            </figcaption>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-12 pt-1">
+                                <a href="#">
+                                    <figure class="row no-gutters bg-light">
+                                        <div class="col-3 pr-2">
+                                            <img src="img/thuvienanh/girl.jpg" alt="img" style="width: 100%;">
+                                        </div>
+                                        <div class="col-9">
+                                            <figcaption>Tham quan Huế có gì thú vị? Gợi ý nên đi khi nào, ở đâu?
+                                            </figcaption>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-12 pt-1">
+                                <a href="#">
+                                    <figure class="row no-gutters bg-light">
+                                        <div class="col-3 pr-2">
+                                            <img src="img/thuvienanh/girl.jpg" alt="img" style="width: 100%;">
+                                        </div>
+                                        <div class="col-9">
+                                            <figcaption>Tham quan Huế có gì thú vị? Gợi ý nên đi khi nào, ở đâu?
+                                            </figcaption>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-12 pt-1">
+                                <a href="#">
+                                    <figure class="row no-gutters bg-light">
+                                        <div class="col-3 pr-2">
+                                            <img src="img/thuvienanh/girl.jpg" alt="img" style="width: 100%;">
+                                        </div>
+                                        <div class="col-9">
+                                            <figcaption>Tham quan Huế có gì thú vị? Gợi ý nên đi khi nào, ở đâu?
+                                            </figcaption>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-12 pt-1">
+                                <a href="#">
+                                    <figure class="row no-gutters bg-light">
+                                        <div class="col-3 pr-2">
+                                            <img src="img/thuvienanh/girl.jpg" alt="img" style="width: 100%;">
+                                        </div>
+                                        <div class="col-9">
+                                            <figcaption>Tham quan Huế có gì thú vị? Gợi ý nên đi khi nào, ở đâu?
+                                            </figcaption>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-12 pt-1">
+                                <a href="#">
+                                    <figure class="row no-gutters bg-light">
+                                        <div class="col-3 pr-2">
+                                            <img src="img/thuvienanh/girl.jpg" alt="img" style="width: 100%;">
+                                        </div>
+                                        <div class="col-9">
+                                            <figcaption>Tham quan Huế có gì thú vị? Gợi ý nên đi khi nào, ở đâu?
+                                            </figcaption>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Tin Tuc -->
+    <section class="slide-owlcarousel mt-5">
+        <h2 class="text-center" style="text-decoration: underline;">
+            <a href="tintuc.html">Tin Tức</a>
+        </h2>
+        <div class="owl-carousel owl-two owl-loaded  news-menu">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+                    <div class=" owl-item text-decoration-none active ">
+                        <a class="" href="#">
+                            <img src="img/tintuc/nuibachma.jpg" alt="">
+                            <p class="news-text ">MÙA HÈ TRÊN ĐỈNH NÚI BẠCH MÃ</p>
+                        </a>
+                    </div>
+                    <div class=" owl-item text-decoration-none">
+                        <a class="" href="#">
+                            <img src="img/tintuc/sen.jpg" alt="">
+                            <p class="news-text">SEN MÙA HẠ - HỒN CỐT ĐẤT CỐ ĐÔ </p>
+                        </a>
+                    </div>
+                    <div class=" owl-item text-decoration-none">
+                        <a class="" href="#">
+                            <img src="img/tintuc/hue-trencao.jpg" alt="">
+                            <p class="news-text">NGẮM VẺ ĐẸP HUẾ TỪ TRÊN CAO</p>
+                        </a>
+                    </div>
+                    <div class=" owl-item text-decoration-none">
+                        <a class="" href="#">
+                            <img src="img/tintuc/hothuytien2.jpg" alt="">
+                            <p class="news-text">CÔNG VIÊN HỒ THỦY TIÊN - VẺ ĐẸP MA MỊ</p>
+                        </a>
+                    </div>
+                    <div class=" owl-item text-decoration-none">
+                        <a class="" href="#">
+                            <img src="img/tintuc/Huesom.jpg" alt="">
+                            <p class="news-text">XỨ HUẾ BÌNH YÊN TRONG BUỔI SỚM MAI</p>
+                        </a>
+                    </div>
+                    <div class=" owl-item text-decoration-none">
+                        <a class="" href="#">
+                            <img src="img/tintuc/Huesuongmu.jpg" alt="">
+                            <p class="news-text">Cố đô Huế mơ màng trong sương mù sáng sớm</p>
+                        </a>
+                    </div>
+                    <div class=" owl-item text-decoration-none">
+                        <a class="" href="#">
+                            <img src="img/tintuc/Mat Biec.jpg" alt="">
+                            <p class="news-text">Loạt địa điểm hút khách du lịch trong phim 'Mắt Biếc'</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="row  no-gutters text-light mt-3">
+            <div class=" left col-md-3 text-center">
+                <div class="text-center">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <p class="text-warning">
+                    HUẾ TRONG TÔI
+                </p>
+                <p class="container-fluid">Cố Đô Huế | Một Điểm Văn Hóa Di Sản | Vẻ Đẹp Lãng Mạn <br> CẢNH ĐẸP VIỆT NAM
+                </p>
+            </div>
+            <div class="row no-gutters col-md-9 ">
+                <div class="col-md-4 pr-md-5">
+                    <h6 class="border-bottom border-secondary pl-5">KHÁM PHÁ</h6>
+                    <ul class="row no-gutters list-unstyled pl-5">
+                        <li class="col-6 col-md-12"><a href="ditichlichsu.html">Di Tích Lịch Sử </a></li>
+                        <li class="col-6 col-md-12"><a href="diadiemdulich.html">Du Lịch </a></li>
+                        <li class="col-6 col-md-12"><a href="connguoi.html">Con Người</a></li>
+                        <li class="col-6 col-md-12"><a href="lehoi.html">Lễ Hội</a></li>
+                        <li class="col-6 col-md-12"><a href="Festival.html">Festival</a></li>
+                        <li class="col-6 col-md-12"><a href="langnghe.html">Làng Nghề </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pr-md-5">
+                    <h6 class="border-bottom border-secondary pl-5">ẨM THỰC</h6>
+                    <ul class="row no-gutters list-unstyled pl-5">
+                        <li class="col-6 col-md-12"><a href="amthuccungdinh.html">Ẩm thực Cung Đình</a></li>
+                        <li class="col-6 col-md-12"><a href="amthucdangian.html">Ẩm Thực Dân Gian</a></li>
+                        <li class="col-6 col-md-12"><a href="amthucchay.html">Ẩm Thực Chay</a></li>
+                        <li class="col-6 col-md-12"><a href="amthucdacsan.html">Đặc Sản Huế</a></li>
+                        <li class="col-6 col-md-12"><a href="amthucduongpho.html">Ăn Vặt-Đường Phố</a></li>
+                        <li class="col-6 col-md-12"><a href="amthucnoibat.html">Nổi Bật - Món Ngon</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="col-md-4 pr-md-5">
+                    <h6 class="border-bottom border-secondary pl-5">LIÊN HỆ</h6>
+                    <ul class="list-unstyled pl-5">
+                        <li><a href="#"><i class="fa fa-phone-square"> 0932123456</i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope"> phamdan...@gmail.com</i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex nav justify-content-center justify-content-md-end align-content-end mr-md-5">
+            <div class="footer-icon ">
+                <a href="https://www.facebook.com/"> <img src="img/facebook social media .png" alt=""
+                        title="Facebook"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="https://www.instagram.com/"> <img src="img/instagram logo social media .png" alt=""
+                        title="Instagram"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="https://www.youtube.com/"><img src="img/youtube social media .png" alt="" title="Youtube"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="https://twitter.com/"> <img src="img/twitter social media icon.png" alt="" title="Twitter"></a>
+            </div>
+        </div>
+        <div class="copy"> HUETRONGTOI &nbsp;&copy; &nbsp; Design by <i class="fa fa-heart" aria-hidden="true"></i>
+        </div>
+    </footer>
+
+    <script src="vendor/owlcarousel/owlcarousel.js"></script>
+    <script src="js/header.js"></script>
+    <script src="vendor/js/jquery.waypoints.min.js"></script>
+
+</body>
+
+</html>
