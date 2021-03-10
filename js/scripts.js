@@ -22,6 +22,9 @@ function timeCountdown() {
     if (seconds < 10) {
         seconds = '0' + seconds;
     }   
+    if (date = hours = minutes = seconds == 0) {
+        clearTimeout(timeCountdown);
+    }
     var day = date + ' Ngày  ' ;
     var hours = hours + ' Giờ ' ;
     var minutes = minutes + ' Phút ' ;
@@ -30,7 +33,7 @@ function timeCountdown() {
     document.getElementById('hours').innerHTML = hours;
     document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
-    setTimeout(timeCountdown, 1);
+    setTimeout(timeCountdown, 10);
 };
 
 //functtion aleart
